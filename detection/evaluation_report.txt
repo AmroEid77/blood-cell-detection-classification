@@ -1,0 +1,43 @@
+============================================================
+YOLOV8 MODEL EVALUATION REPORT -l -13 layer
+============================================================
+Generated on: 2025-06-17 21:22:21.429309
+
+📊 OVERALL PERFORMANCE METRICS
+----------------------------------------
+mAP@0.5             : 0.8758
+mAP@0.5:0.95        : 0.5291
+mAP@0.75            : 0.5588
+Precision           : 0.7904
+Recall              : 0.8438
+F1-Score            : 0.8162
+
+🏷️ PER-CLASS PERFORMANCE METRICS
+----------------------------------------
+
+Platelets:
+  AP@0.5         : 0.8286
+  AP@0.5:0.95    : 0.3942
+  Precision      : 0.8028
+  Recall         : 0.7800
+  IoU            : N/A
+
+RBC:
+  AP@0.5         : 0.8235
+  AP@0.5:0.95    : 0.5070
+  Precision      : 0.7076
+  Recall         : 0.7759
+  IoU            : N/A
+
+WBC:
+  AP@0.5         : 0.9753
+  AP@0.5:0.95    : 0.6861
+  Precision      : 0.8607
+  Recall         : 0.9754
+  IoU            : N/A
+
+🎯 RECOMMENDATIONS
+----------------------------------------
+✅ Good performance. Consider fine-tuning for better results.
+
+============================================================
