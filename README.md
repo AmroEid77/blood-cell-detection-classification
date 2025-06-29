@@ -1,6 +1,3 @@
-Of course. Here is the complete content in raw Markdown format. You can copy and paste this directly into a file named README.md.
-
-Generated markdown
 # Dual-Stage Deep Learning for Blood Cell Detection and Leukemia Classification
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
