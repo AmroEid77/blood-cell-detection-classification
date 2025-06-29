@@ -68,10 +68,6 @@ Three models were trained on a specialized dataset for Acute Lymphoblastic Leuke
 | **MAE**                       | 0.3108      | 0.1631      | **0.0554**              |
 | **False Negative Rate (avg)** | 0.1920      | 0.0972      | **0.0242**              |
 
-<p align="center">
-  <img src="https://i.imgur.com/GzB0u4y.png" alt="Classification Model Comparison" width="800"/>
-  <br><em>Figure: Comparison of key performance and error metrics for the classification models.</em>
-</p>
 
 ## 📂 Repository Structure
 
