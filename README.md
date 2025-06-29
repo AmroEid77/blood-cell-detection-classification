@@ -33,20 +33,12 @@ The automated analysis workflow is structured in two key stages:
     -   A blood smear image is fed into the trained YOLOv8 model.
     -   The model detects and localizes all primary blood components: Red Blood Cells, White Blood Cells, and Platelets.
 
-    <p align="center">
-      <img src="https://i.imgur.com/rM1Ym6d.png" alt="YOLOv8 Detection Example" width="600"/>
-      <br><em>Figure: A sample image with ground-truth bounding box annotations for each object class.</em>
-    </p>
 
 2.  **Stage 2: Leukemia Classification (MedNet)**
     -   The bounding boxes corresponding to White Blood Cells are cropped.
     -   These cropped images are passed to the high-performance MedNet classifier.
     -   MedNet classifies each lymphocyte as *Benign* or one of the three *Malignant* subtypes (Early Pre-B, Pre-B, Pro-B).
 
-    <p align="center">
-      <img src="https://i.imgur.com/o1K5B1z.png" alt="Segmentation Pipeline" width="600"/>
-      <br><em>Figure: The segmentation pipeline used for classification model training, showing the progression from the original image (a) to the final segmented cell (f).</em>
-    </p>
 
 ## 📊 Models and Results
 
@@ -60,10 +52,6 @@ Five variants of YOLOv8 were trained with three different unfreezing strategies 
 - **Best Precision**: `YOLOv8x-last 10` (0.8841), ideal for minimizing false positives.
 - **Fine-Tuning Strategy**: Full fine-tuning (unfreezing all layers) consistently yielded the best performance across most model sizes.
 
-<p align="center">
-  <img src="https://i.imgur.com/J1Wp4uF.png" alt="YOLOv8 Performance Comparison" width="800"/>
-  <br><em>Figure: Performance comparison of YOLOv8 variants.</em>
-</p>
 
 ### Task 2: Leukemia Classification
 
